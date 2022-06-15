@@ -14,5 +14,6 @@ pair<int,int> missingAndRepeating(vector<int> &arr, int n)
         if (mp.find(i) == mp.end()){ans.first = i; break;}
     }
     return ans;
+    
 	
 }
