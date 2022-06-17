@@ -14,7 +14,7 @@ vector<vector<int>> pairSum(vector<int> &arr, int s){
     for(int i = 0; i < n; i++){
         if(mp.find(s-arr[i]) != mp.end()){
             int cnt = mp[s-arr[i]];
-            while(cnt--){
+            while(cnt--){ 
                 vector<int>v  = {s-arr[i],arr[i]};
                 ans.push_back(v);
             }
