@@ -11,7 +11,7 @@ int uniqueSubstrings(string s)
         }
         else{
             set.erase(s[i++]);
-        }
+        } 
     }
     return ans;
 }
