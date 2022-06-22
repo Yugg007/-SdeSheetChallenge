@@ -21,7 +21,7 @@ void solve(int i, int j, vector<vector<int>>&maze, int n, vector<vector<int>>&vi
     solve(i+1, j, maze, n, vis);
     solve(i, j-1, maze, n, vis);
     solve(i, j+1, maze, n, vis);
-    vis[i][j] = 0;
+
 }
 vector<vector<int> > ratInAMaze(vector<vector<int> > &maze, int n){
   // Write your code here.
