@@ -18,16 +18,5 @@ vector<int> mergeKSortedArrays(vector<vector<int>>&kArrays, int k)
             idx[i]++;
         }
     }
-    cout<<"ans- ";
-    
-    return ans;
-    
-}
-
-int main(){
-    vector<vector<int>>v1 = {{3, 5, 9},{1, 2, 3, 8}};
-    vector<int>ans = mergeKSortedArrays(v1, 2);
-    for(auto it : ans){
-        cout<<it<<" ";
-    }
+    return ans;    
 }
